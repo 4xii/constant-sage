@@ -1,0 +1,63 @@
+{
+  "name": "constant-sage",
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.6.12",
+  "description": "My awesome typescript library",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/4xii/ts-lib-starter#readme",
+  "bugs": {
+    "url": "https://github.com/4xii/ts-lib-starter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4xii/ts-lib-starter.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": {
+        "require": "./dist/index.d.cts",
+        "import": "./dist/index.d.ts"
+      },
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint --cache .",
+    "lint:fix": "pnpm run lint --fix",
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "release": "bumpp && pnpm publish",
+    "prepublishOnly": "pnpm run build"
+  },
+  "devDependencies": {
+    "@4xii/eslint-config": "^3.3.2",
+    "@4xii/prettier-config": "^1.0.4",
+    "@types/node": "^20.4.8",
+    "bumpp": "^9.1.1",
+    "eslint": "^8.46.0",
+    "fast-glob": "^3.3.1",
+    "prettier": "^3.0.1",
+    "tsup": "^7.2.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6",
+    "vitest": "^0.34.1"
+  },
+  "engines": {
+    "node": ">=16.14.0"
+  },
+  "prettier": "@4xii/prettier-config"
+}
