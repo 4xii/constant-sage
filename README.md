@@ -24,7 +24,7 @@ yarn add constant-sage
 ## Usage
 
 ```typescript
-import { defineConstants } from 'your-module-name';
+import { defineConstants } from 'constant-sage';
 
 // Define the basic structure of constants
 const defs = [

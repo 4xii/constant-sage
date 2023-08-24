@@ -19,7 +19,7 @@ yarn add constant-sage
 ## 使用方法
 
 ```typescript
-import { defineConstants } from 'your-module-name';
+import { defineConstants } from 'constant-sage';
 
 // 定义常量的基本结构
 const defs = [
