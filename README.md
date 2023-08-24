@@ -55,7 +55,7 @@ defineConstants(defs: readonly IBaseDef[], labelspace?: string)
 
 Returns: An object containing the generated constants.
 
-### 常量集合对象
+### Constant Collection Object
 
 - KEYS: An array of all constant keys.
 - VALUES: An array of all constant values.
