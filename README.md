@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="./docs/public/logo.png" width="300px" />
+</p>
 <h1 align="center">constant-sage</h1>
 
 <p align="center">constant-sage can generate various commonly used data structures with complete types based on the constant dictionary you define.</p>
