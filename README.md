@@ -15,6 +15,7 @@
 
 - ✨ Convenient and easy to use
 - 🦾 Full TypeScript support
+-	💯 100% test coverage
 
 ## Install
 
@@ -44,6 +45,10 @@ console.log(KEYS); // ['KEY_1', 'KEY_2', 'KEY_3']
 console.log(VALUES); // ['VALUE_1', 'VALUE_2', 'VALUE_3']
 // ...
 ```
+
+<p align="center">
+  <img src="./docs/public/demo.png" width="500px" />
+</p>
 
 ## API
 

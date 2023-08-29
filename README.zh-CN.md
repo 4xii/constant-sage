@@ -1,5 +1,7 @@
+<p align="center">
+  <img src="./docs/public/logo.png" width="300px" />
+</p>
 <h1 align="center">constant-sage</h1>
-
 <p align="center">constant-sage可以通过你定义的常量字典，生成类型完善的各种常用的
 数据结构</p>
 
@@ -7,6 +9,7 @@
 
 - ✨ 方便便捷
 - 🦾 完善的 TypeScript 支持
+-	💯 100% 单元测试覆盖
 
 ## Install
 
@@ -36,6 +39,10 @@ console.log(KEYS); // ['KEY_1', 'KEY_2', 'KEY_3']
 console.log(VALUES); // ['VALUE_1', 'VALUE_2', 'VALUE_3']
 // ...
 ```
+
+<p align="center">
+  <img src="./docs/public/demo.png" width="500px" />
+</p>
 
 ## API
 
